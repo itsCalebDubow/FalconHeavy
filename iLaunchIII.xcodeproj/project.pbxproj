@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865385B920C880CB007DBAA6 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865385B820C880CB007DBAA6 /* Tower.swift */; };
 		86A764D820ABAD6B0021047D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A764D720ABAD6B0021047D /* AppDelegate.swift */; };
 		86A764DA20ABAD6B0021047D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A764D920ABAD6B0021047D /* art.scnassets */; };
 		86A764DC20ABAD6B0021047D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A764DB20ABAD6B0021047D /* GameViewController.swift */; };
 		86A764DF20ABAD6B0021047D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A764DD20ABAD6B0021047D /* Main.storyboard */; };
 		86A764E120ABAD6D0021047D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A764E020ABAD6D0021047D /* Assets.xcassets */; };
 		86A764E420ABAD6D0021047D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A764E220ABAD6D0021047D /* LaunchScreen.storyboard */; };
+		E702621F20ABB1F300377D29 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702621E20ABB1F300377D29 /* GameView.swift */; };
+		E702622A20ABB33700377D29 /* FalconHeavy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702622920ABB2F900377D29 /* FalconHeavy.swift */; };
+		E74E1C9F20C9FAC500D302FF /* CoreMotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74E1C9E20C9FAC500D302FF /* CoreMotionHelper.swift */; };
+		E763376A20CB469F00D78B89 /* SolarSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763376920CB469E00D78B89 /* SolarSystem.swift */; };
+		E7E19CFC20AD1137001687E8 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E19CFB20AD1137001687E8 /* SCNAction+Extensions.swift */; };
+		E7E19CFE20AD1141001687E8 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E19CFD20AD1141001687E8 /* SCNVector3+Extensions.swift */; };
+		E7E19D0020AD114E001687E8 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E19CFF20AD114E001687E8 /* GameHelper.swift */; };
+		FBDBB92920D4046D00EEF9F6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = FBDBB92820D4046D00EEF9F6 /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865385B820C880CB007DBAA6 /* Tower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
 		86A764D420ABAD6B0021047D /* iLaunchIII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLaunchIII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A764D720ABAD6B0021047D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A764D920ABAD6B0021047D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +34,21 @@
 		86A764E020ABAD6D0021047D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A764E320ABAD6D0021047D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A764E520ABAD6D0021047D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E702621E20ABB1F300377D29 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameView.swift; path = ../../iLaunch3DII/iLaunch3DII/GameView.swift; sourceTree = "<group>"; };
+		E702622920ABB2F900377D29 /* FalconHeavy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconHeavy.swift; sourceTree = "<group>"; };
+		E702623A20ABB5A900377D29 /* LabelNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelNodeExtension.swift; sourceTree = "<group>"; };
+		E702623B20ABB5A900377D29 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E702623C20ABB5A900377D29 /* GameUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		E702623D20ABB5A900377D29 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E702623E20ABB5A900377D29 /* ExtendedSprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedSprite.swift; sourceTree = "<group>"; };
+		E702623F20ABB5A900377D29 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E702624020ABB5A900377D29 /* SpriteNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteNodeExtension.swift; sourceTree = "<group>"; };
+		E74E1C9E20C9FAC500D302FF /* CoreMotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionHelper.swift; sourceTree = "<group>"; };
+		E763376920CB469E00D78B89 /* SolarSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystem.swift; sourceTree = "<group>"; };
+		E7E19CFB20AD1137001687E8 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		E7E19CFD20AD1141001687E8 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		E7E19CFF20AD114E001687E8 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		FBDBB92820D4046D00EEF9F6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +65,7 @@
 		86A764CB20ABAD6B0021047D = {
 			isa = PBXGroup;
 			children = (
+				FBDBB92820D4046D00EEF9F6 /* README.txt */,
 				86A764D620ABAD6B0021047D /* iLaunchIII */,
 				86A764D520ABAD6B0021047D /* Products */,
 			);
@@ -57,14 +83,45 @@
 			isa = PBXGroup;
 			children = (
 				86A764D720ABAD6B0021047D /* AppDelegate.swift */,
-				86A764D920ABAD6B0021047D /* art.scnassets */,
 				86A764DB20ABAD6B0021047D /* GameViewController.swift */,
+				E702621E20ABB1F300377D29 /* GameView.swift */,
+				E702624120ABB5F400377D29 /* Nodes */,
+				86A764D920ABAD6B0021047D /* art.scnassets */,
 				86A764DD20ABAD6B0021047D /* Main.storyboard */,
 				86A764E020ABAD6D0021047D /* Assets.xcassets */,
 				86A764E220ABAD6D0021047D /* LaunchScreen.storyboard */,
 				86A764E520ABAD6D0021047D /* Info.plist */,
+				E702623920ABB5A900377D29 /* Extensions */,
 			);
 			path = iLaunchIII;
+			sourceTree = "<group>";
+		};
+		E702623920ABB5A900377D29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E702623F20ABB5A900377D29 /* Button.swift */,
+				E702623E20ABB5A900377D29 /* ExtendedSprite.swift */,
+				E702623B20ABB5A900377D29 /* Extensions.swift */,
+				E7E19CFD20AD1141001687E8 /* SCNVector3+Extensions.swift */,
+				E7E19CFF20AD114E001687E8 /* GameHelper.swift */,
+				E7E19CFB20AD1137001687E8 /* SCNAction+Extensions.swift */,
+				E702623C20ABB5A900377D29 /* GameUtils.swift */,
+				E702623A20ABB5A900377D29 /* LabelNodeExtension.swift */,
+				E702624020ABB5A900377D29 /* SpriteNodeExtension.swift */,
+				E702623D20ABB5A900377D29 /* UIColorExtension.swift */,
+				E74E1C9E20C9FAC500D302FF /* CoreMotionHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E702624120ABB5F400377D29 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				E702622920ABB2F900377D29 /* FalconHeavy.swift */,
+				865385B820C880CB007DBAA6 /* Tower.swift */,
+				E763376920CB469E00D78B89 /* SolarSystem.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDBB92920D4046D00EEF9F6 /* README.txt in Resources */,
 				86A764DA20ABAD6B0021047D /* art.scnassets in Resources */,
 				86A764E420ABAD6D0021047D /* LaunchScreen.storyboard in Resources */,
 				86A764E120ABAD6D0021047D /* Assets.xcassets in Resources */,
@@ -139,8 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E763376A20CB469F00D78B89 /* SolarSystem.swift in Sources */,
+				E702622A20ABB33700377D29 /* FalconHeavy.swift in Sources */,
+				E7E19CFE20AD1141001687E8 /* SCNVector3+Extensions.swift in Sources */,
+				E7E19CFC20AD1137001687E8 /* SCNAction+Extensions.swift in Sources */,
 				86A764DC20ABAD6B0021047D /* GameViewController.swift in Sources */,
+				E702621F20ABB1F300377D29 /* GameView.swift in Sources */,
+				E7E19D0020AD114E001687E8 /* GameHelper.swift in Sources */,
 				86A764D820ABAD6B0021047D /* AppDelegate.swift in Sources */,
+				E74E1C9F20C9FAC500D302FF /* CoreMotionHelper.swift in Sources */,
+				865385B920C880CB007DBAA6 /* Tower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTV8MBDYT3;
 				INFOPLIST_FILE = iLaunchIII/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wendell.iLaunchIII;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTV8MBDYT3;
 				INFOPLIST_FILE = iLaunchIII/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wendell.iLaunchIII;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
